@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 78 210" width="78" height="210" role="img" aria-label="签">
+  <defs>
+    <linearGradient id="slip-wood" x1="0.15" y1="0" x2="0.85" y2="1">
+      <stop offset="0" stop-color="#F3D8AC"/>
+      <stop offset="0.55" stop-color="#E4C08C"/>
+      <stop offset="1" stop-color="#CFA268"/>
+    </linearGradient>
+    <linearGradient id="slip-band" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F0604C"/>
+      <stop offset="1" stop-color="#D63A31"/>
+    </linearGradient>
+  </defs>
+
+  <path d="M39 16v-7" stroke="#E5453C" stroke-width="2.4" stroke-linecap="round"/>
+  <circle cx="39" cy="6" r="3.4" fill="#E5453C"/>
+
+  <rect x="9" y="16" width="60" height="184" rx="16" fill="url(#slip-wood)" stroke="#8C5A2B" stroke-width="2.6"/>
+  <path d="M9 32a16 16 0 0 1 16-16h28a16 16 0 0 1 16 16v16H9Z" fill="url(#slip-band)" stroke="#8C5A2B" stroke-width="2.6"/>
+  <path d="M18 35h42" stroke="#FFD9C9" stroke-width="2" stroke-linecap="round" opacity="0.45"/>
+
+  <path d="M24 70c-2.4 32-2.4 68 0 100" fill="none" stroke="#B98A55" stroke-width="1.6" stroke-linecap="round" opacity="0.32"/>
+  <path d="M54 70c2.4 32 2.4 68 0 100" fill="none" stroke="#B98A55" stroke-width="1.6" stroke-linecap="round" opacity="0.32"/>
+  <path d="M30 64c-1.4 40-1.4 80 0 120" fill="none" stroke="#FFFFFF" stroke-width="1.6" stroke-linecap="round" opacity="0.28"/>
+
+  <ellipse cx="29" cy="120" rx="7" ry="26" fill="#FFFFFF" opacity="0.18"/>
+</svg>

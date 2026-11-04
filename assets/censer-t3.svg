@@ -1,0 +1,141 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 112" width="96" height="112" role="img" aria-label="鎏金三足鼎">
+  <defs>
+    <linearGradient id="g2-belly" x1="0.16" y1="0.05" x2="0.82" y2="1">
+      <stop offset="0" stop-color="#FFF6D4"/>
+      <stop offset="0.16" stop-color="#F4D992"/>
+      <stop offset="0.38" stop-color="#DDB55F"/>
+      <stop offset="0.62" stop-color="#B0842B"/>
+      <stop offset="0.84" stop-color="#7B5813"/>
+      <stop offset="1" stop-color="#4A3207"/>
+    </linearGradient>
+    <linearGradient id="g2-neck" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#E9C877"/>
+      <stop offset="0.35" stop-color="#C79B3E"/>
+      <stop offset="0.7" stop-color="#8E6616"/>
+      <stop offset="1" stop-color="#55390A"/>
+    </linearGradient>
+    <linearGradient id="g2-lip" x1="0" y1="0" x2="0.2" y2="1">
+      <stop offset="0" stop-color="#FFFCEB"/>
+      <stop offset="0.35" stop-color="#F0D089"/>
+      <stop offset="0.7" stop-color="#B98C31"/>
+      <stop offset="1" stop-color="#6E4E10"/>
+    </linearGradient>
+    <linearGradient id="g2-leg" x1="0" y1="0" x2="1" y2="0.2">
+      <stop offset="0" stop-color="#E8C87B"/>
+      <stop offset="0.4" stop-color="#B3872C"/>
+      <stop offset="1" stop-color="#4C3308"/>
+    </linearGradient>
+    <linearGradient id="g2-ring" x1="0.1" y1="0" x2="0.9" y2="1">
+      <stop offset="0" stop-color="#FFF2C4"/>
+      <stop offset="0.4" stop-color="#D8AE55"/>
+      <stop offset="1" stop-color="#5B3F0B"/>
+    </linearGradient>
+    <radialGradient id="g2-spec" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.62"/>
+      <stop offset="0.55" stop-color="#FFFFFF" stop-opacity="0.16"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2-bounce" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFE7AE" stop-opacity="0.45"/>
+      <stop offset="1" stop-color="#FFE7AE" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="g2-glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFDE8C" stop-opacity="0.75"/>
+      <stop offset="0.55" stop-color="#EBB44C" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#EBB44C" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="inc-real" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#B4432F"/>
+      <stop offset="0.28" stop-color="#8B2418"/>
+      <stop offset="0.72" stop-color="#5E140D"/>
+      <stop offset="1" stop-color="#3A0906"/>
+    </linearGradient>
+    <linearGradient id="inc-gold" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFEFC2"/>
+      <stop offset="0.5" stop-color="#D9AE55"/>
+      <stop offset="1" stop-color="#8A6418"/>
+    </linearGradient>
+    <radialGradient id="censer-flare" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFF6C8" stop-opacity="0.85"/>
+      <stop offset="0.6" stop-color="#FFD264" stop-opacity="0.3"/>
+      <stop offset="1" stop-color="#FFC24B" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <circle class="censer-flare" cx="48" cy="44" r="38" fill="url(#censer-flare)" opacity="0"/>
+
+  <!-- 香：三根略有高低差的实心高香 -->
+  <g class="censer-stick">
+    <path d="M42.9 12h3.2l.5 46h-4.2z" fill="url(#inc-real)"/>
+    <path d="M46.6 7h3l.4 51h-3.8z" fill="url(#inc-real)"/>
+    <path d="M50.6 12h3.2l.5 46h-4.2z" fill="url(#inc-real)"/>
+    <path d="M43.6 14v42M47.2 9v47M51.3 14v42" stroke="#F6E2B4" stroke-width="0.6" opacity="0.35"/>
+    <rect x="42.9" y="26" width="3.9" height="2" fill="url(#inc-gold)" opacity="0.9"/>
+    <rect x="46.6" y="22" width="3.6" height="2" fill="url(#inc-gold)" opacity="0.9"/>
+    <rect x="50.6" y="26" width="3.9" height="2" fill="url(#inc-gold)" opacity="0.9"/>
+    <path d="M42.9 12h3.2l.3 2.4h-3.8z" fill="#8C8C86"/>
+    <path d="M46.6 7h3l.2 2.2h-3.4z" fill="#9A9A93"/>
+    <path d="M50.6 12h3.2l.3 2.4h-3.8z" fill="#8C8C86"/>
+    <ellipse class="censer-ember" cx="44.5" cy="11.4" rx="2.4" ry="2" fill="#FFD79A"/>
+    <ellipse class="censer-ember" cx="48.2" cy="6.4" rx="2.4" ry="2" fill="#FFD79A"/>
+    <ellipse class="censer-ember" cx="52.3" cy="11.4" rx="2.4" ry="2" fill="#FFD79A"/>
+  </g>
+
+  <!-- 底部金晕与落影 -->
+  <ellipse cx="48" cy="102" rx="34" ry="9" fill="url(#g2-glow)"/>
+  <ellipse cx="48" cy="106.5" rx="24" ry="2.8" fill="#4A3207" opacity="0.3"/>
+
+  <!-- 三足（先画，被鼎腹压住上端） -->
+  <path d="M27 92c-3.4 5-4.4 10-3.4 14.4h11.6c1.6-4.4 1.2-9.4-1-14.4z" fill="url(#g2-leg)"/>
+  <path d="M69 92c3.4 5 4.4 10 3.4 14.4H60.8c-1.6-4.4-1.2-9.4 1-14.4z" fill="url(#g2-leg)"/>
+  <path d="M45 95h6l.8 10h-7.6z" fill="#6B4A10"/>
+  <path d="M25.4 103.6h9.2M61.4 103.6h9.2" stroke="#FFF3C9" stroke-width="0.8" opacity="0.45"/>
+
+  <!-- 双耳（环状，先画） -->
+  <circle cx="17.5" cy="49" r="7.4" fill="none" stroke="url(#g2-ring)" stroke-width="4.2"/>
+  <circle cx="78.5" cy="49" r="7.4" fill="none" stroke="url(#g2-ring)" stroke-width="4.2"/>
+  <path d="M13.6 43.6a8 8 0 0 1 5-2.6" fill="none" stroke="#FFFFFF" stroke-width="1.1" opacity="0.6"/>
+  <path d="M74.6 43.6a8 8 0 0 1 5-2.6" fill="none" stroke="#FFFFFF" stroke-width="1.1" opacity="0.6"/>
+
+  <!-- 颈部 -->
+  <path d="M22 56h52v9c0 3-2 4.6-5 4.6H27c-3 0-5-1.6-5-4.6z" fill="url(#g2-neck)"/>
+  <path d="M22 56h52" stroke="#FFF6D4" stroke-width="0.8" opacity="0.5"/>
+
+  <!-- 鼎腹：扁球体 -->
+  <ellipse cx="48" cy="80" rx="32" ry="19.5" fill="url(#g2-belly)"/>
+  <ellipse cx="48" cy="80" rx="32" ry="19.5" fill="none" stroke="#4A3207" stroke-width="0.8" opacity="0.5"/>
+  <ellipse cx="31" cy="70" rx="9.5" ry="12" fill="url(#g2-spec)" opacity="0.75"/>
+  <path d="M40 62.6c-4 1.6-7.6 4-10.4 7.2" fill="none" stroke="#FFFFFF" stroke-width="1.6" opacity="0.5" stroke-linecap="round"/>
+  <path d="M17.6 78c1.2 8 6.4 14 14 17.4-9.6-1.8-15.6-8.4-16.6-17.4z" fill="#3E2A05" opacity="0.25"/>
+  <path d="M48 99.5c9.6 0 17.4-2 22.6-6.4-2.6 6.6-11.4 10.4-22.6 10.4s-20-3.8-22.6-10.4c5.2 4.4 13 6.4 22.6 6.4z" fill="#FFE7AE" opacity="0.18"/>
+  <ellipse cx="48" cy="96" rx="21" ry="5" fill="url(#g2-bounce)" opacity="0.7"/>
+
+  <!-- 腹身錾刻 -->
+  <g fill="none" stroke-linecap="round">
+    <path d="M24 71.4c7-2.6 15.4-4 24-4s17 1.4 24 4" stroke="#8A6214" stroke-width="1.4" opacity="0.75"/>
+    <path d="M24 72.8c7-2.6 15.4-4 24-4s17 1.4 24 4" stroke="#FFEFC0" stroke-width="0.7" opacity="0.5"/>
+    <path d="M27 84c2.2-1.2 2.2-4.2 0-4.2-1.8 0-2.4 2-1.1 2.7" stroke="#7B5813" stroke-width="1.2" opacity="0.8"/>
+    <path d="M69 84c-2.2-1.2-2.2-4.2 0-4.2 1.8 0 2.4 2 1.1 2.7" stroke="#7B5813" stroke-width="1.2" opacity="0.8"/>
+    <path d="M36 89c3.6 1.6 8 1.6 12 0s8.4-1.6 12 0" stroke="#7B5813" stroke-width="1.1" opacity="0.7"/>
+  </g>
+
+  <!-- 抛光纹 -->
+  <g stroke="#FFF3C9" stroke-width="0.5" opacity="0.22" fill="none">
+    <path d="M28 64.6c-1.6 6-1.6 12 0 18"/>
+    <path d="M33 63.2c-1.4 7.4-1.4 14.6 0 22"/>
+    <path d="M64 64.6c1.6 6 1.6 12 0 18"/>
+  </g>
+
+  <!-- 口沿（卷唇） -->
+  <ellipse cx="48" cy="56.4" rx="30" ry="6" fill="#2B1D06"/>
+  <ellipse cx="48" cy="56.4" rx="30" ry="6" fill="none" stroke="url(#g2-lip)" stroke-width="3.4"/>
+  <ellipse cx="48" cy="56.4" rx="26.6" ry="4.6" fill="#241806"/>
+  <path d="M20 53.4a30 6 0 0 1 56 0" fill="none" stroke="#FFFCEB" stroke-width="1.1" opacity="0.65"/>
+  <path d="M21.4 59.8a30 6 0 0 0 53.2 0" fill="none" stroke="#4A3207" stroke-width="1.2" opacity="0.55"/>
+
+  <g class="censer-smoke" fill="none" stroke="#F2CE7A" stroke-width="2.4" stroke-linecap="round" opacity="0">
+    <path d="M44.5 7c-5-7 5-11 0-18"/>
+    <path d="M48.2 2c5-7-5-11 0-18"/>
+    <path d="M52.3 7c-5-7 5-11 0-18"/>
+  </g>
+</svg>

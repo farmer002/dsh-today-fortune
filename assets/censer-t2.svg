@@ -1,0 +1,111 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 112" width="96" height="112" role="img" aria-label="青铜双耳鼎">
+  <defs>
+    <linearGradient id="b-body" x1="0.12" y1="0" x2="0.88" y2="1">
+      <stop offset="0" stop-color="#A8996F"/>
+      <stop offset="0.28" stop-color="#6F6446"/>
+      <stop offset="0.6" stop-color="#453B29"/>
+      <stop offset="1" stop-color="#1E1912"/>
+    </linearGradient>
+    <linearGradient id="b-lip" x1="0" y1="0" x2="0.15" y2="1">
+      <stop offset="0" stop-color="#BCAD85"/>
+      <stop offset="0.4" stop-color="#7A6D4A"/>
+      <stop offset="1" stop-color="#3B3324"/>
+    </linearGradient>
+    <linearGradient id="b-leg" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6E6246"/>
+      <stop offset="0.45" stop-color="#443A28"/>
+      <stop offset="1" stop-color="#1F1A12"/>
+    </linearGradient>
+    <linearGradient id="b-ring" x1="0" y1="0" x2="0.6" y2="1">
+      <stop offset="0" stop-color="#C0B08A"/>
+      <stop offset="0.5" stop-color="#6C6044"/>
+      <stop offset="1" stop-color="#2A2418"/>
+    </linearGradient>
+    <radialGradient id="b-spec" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFFFFF" stop-opacity="0.42"/>
+      <stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="b-patina" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#7FB592" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#4E8A6B" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="censer-flare" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#FFF6C8" stop-opacity="0.8"/>
+      <stop offset="0.6" stop-color="#FFD264" stop-opacity="0.26"/>
+      <stop offset="1" stop-color="#FFC24B" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="incense-t2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C64A3C"/>
+      <stop offset="0.35" stop-color="#8F231A"/>
+      <stop offset="1" stop-color="#4C0D0A"/>
+    </linearGradient>
+    <linearGradient id="gold-tip" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#F2DCA0"/>
+      <stop offset="1" stop-color="#9C7526"/>
+    </linearGradient>
+  </defs>
+
+  <circle class="censer-flare" cx="48" cy="48" r="34" fill="url(#censer-flare)" opacity="0"/>
+
+  <!-- 三根暗红高香 -->
+  <g class="censer-stick">
+    <rect x="39.6" y="24" width="4" height="42" rx="2" fill="url(#incense-t2)"/>
+    <rect x="46" y="19" width="4" height="47" rx="2" fill="url(#incense-t2)"/>
+    <rect x="52.4" y="24" width="4" height="42" rx="2" fill="url(#incense-t2)"/>
+    <path d="M40.6 25v30M47 20v32M53.4 25v30" stroke="#E9C98C" stroke-width="0.7" opacity="0.35"/>
+    <rect x="39.6" y="24" width="4" height="3.2" rx="1.6" fill="url(#gold-tip)"/>
+    <rect x="46" y="19" width="4" height="3.2" rx="1.6" fill="url(#gold-tip)"/>
+    <rect x="52.4" y="24" width="4" height="3.2" rx="1.6" fill="url(#gold-tip)"/>
+    <ellipse class="censer-ember" cx="41.6" cy="23" rx="2.8" ry="2.3" fill="#FFB35C"/>
+    <ellipse class="censer-ember" cx="48" cy="18" rx="2.8" ry="2.3" fill="#FFB35C"/>
+    <ellipse class="censer-ember" cx="54.4" cy="23" rx="2.8" ry="2.3" fill="#FFB35C"/>
+  </g>
+
+  <!-- 落地阴影 -->
+  <ellipse cx="48" cy="107" rx="27" ry="3.4" fill="#000000" opacity="0.28"/>
+
+  <!-- 三足 -->
+  <path d="M27 91c-2.4 6-3.2 11-2.6 15h10.4c1.4-4.6 1.2-9.4-.6-15z" fill="url(#b-leg)" stroke="#171209" stroke-width="1"/>
+  <path d="M69 91c2.4 6 3.2 11 2.6 15H61.2c-1.4-4.6-1.2-9.4.6-15z" fill="url(#b-leg)" stroke="#171209" stroke-width="1"/>
+  <path d="M44.6 95h6.8l1 11h-8.8z" fill="#1B1610" stroke="#171209" stroke-width="0.9"/>
+  <path d="M26 104.6h9.6M60.4 104.6H70" stroke="#EDE0BE" stroke-width="0.9" opacity="0.3" stroke-linecap="round"/>
+
+  <!-- 鼎腹 -->
+  <path d="M15 62c-3 12 2 23 11 28 6.4 3.6 13.6 5 22 5s15.6-1.4 22-5c9-5 14-16 11-28z"
+        fill="url(#b-body)" stroke="#171209" stroke-width="1.1" stroke-linejoin="round"/>
+  <ellipse cx="30" cy="72" rx="9.5" ry="15" fill="url(#b-spec)" opacity="0.55"/>
+  <path d="M19 66c-2 10 2.4 19 9.6 24.4" fill="none" stroke="#D8C79A" stroke-width="1.6" opacity="0.22" stroke-linecap="round"/>
+  <path d="M22 88c6.5 4 16 6 26 6s19.5-2 26-6" fill="none" stroke="#0F0C08" stroke-width="3.4" opacity="0.3"/>
+  <path d="M32 96c4.4 1.6 10.4 2.4 16 2.4s11.6-.8 16-2.4" fill="none" stroke="#0F0C08" stroke-width="2.2" opacity="0.22"/>
+
+  <!-- 铜锈 -->
+  <path d="M23 74c1 9 6 16 13 20-9-2-14-9-16-18z" fill="url(#b-patina)"/>
+  <path d="M73 78c-1 8-5 13-11 16 7-2 11-8 13-15z" fill="url(#b-patina)" opacity="0.8"/>
+  <g fill="#7FB592" opacity="0.3">
+    <circle cx="28" cy="80" r="1.1"/><circle cx="31" cy="85" r="0.8"/>
+    <circle cx="66" cy="82" r="1"/><circle cx="70" cy="78" r="0.7"/>
+    <circle cx="35" cy="90" r="0.7"/>
+  </g>
+
+  <!-- 口沿 -->
+  <path d="M10 58c0-4.2 4.4-6.6 10.6-6.6h54.8c6.2 0 10.6 2.4 10.6 6.6s-4.4 6.6-10.6 6.6H20.6C14.4 64.6 10 62.2 10 58z"
+        fill="url(#b-lip)" stroke="#171209" stroke-width="1.1"/>
+  <path d="M20 53.2h56" stroke="#E7DCBC" stroke-width="1.1" opacity="0.45"/>
+  <path d="M14 61.8h68" stroke="#0F0C08" stroke-width="1.6" opacity="0.35"/>
+  <ellipse cx="48" cy="57.8" rx="28.6" ry="5.4" fill="#0A0805" stroke="#171209" stroke-width="0.9"/>
+  <ellipse cx="48" cy="56.6" rx="24" ry="3.4" fill="#241D13" opacity="0.55"/>
+
+  <!-- 圆环双耳 -->
+  <circle cx="19" cy="44" r="7.6" fill="none" stroke="url(#b-ring)" stroke-width="4.4"/>
+  <circle cx="19" cy="44" r="7.6" fill="none" stroke="#E7DCBC" stroke-width="0.8" opacity="0.3"/>
+  <circle cx="77" cy="44" r="7.6" fill="none" stroke="url(#b-ring)" stroke-width="4.4"/>
+  <circle cx="77" cy="44" r="7.6" fill="none" stroke="#E7DCBC" stroke-width="0.8" opacity="0.3"/>
+  <path d="M16 38.4a8 8 0 0 1 5-2" fill="none" stroke="#F0E6C8" stroke-width="1" opacity="0.5"/>
+  <path d="M74 38.4a8 8 0 0 1 5-2" fill="none" stroke="#F0E6C8" stroke-width="1" opacity="0.5"/>
+
+  <g class="censer-smoke" fill="none" stroke="#CFD8D0" stroke-width="2.2" stroke-linecap="round" opacity="0">
+    <path d="M41.6 19c-5-7 5-11 0-18"/>
+    <path d="M48 14c5-7-5-11 0-18"/>
+    <path d="M54.4 19c-5-7 5-11 0-18"/>
+  </g>
+</svg>
