@@ -1,6 +1,6 @@
 {
   "name": "dsh-today-fortune",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A cartoon temple orb floating in the DSH overlay: pick a censer, draw a lot slip and read today's almanac in plain modern language.",
   "license": "MIT",
   "author": "Alfarmer-001",
@@ -16,13 +16,13 @@
     "今日运势",
     "ui"
   ],
-  "homepage": "https://github.com/Alfarmer-001/dsh-today-fortune#readme",
+  "homepage": "https://github.com/farmer002/dsh-today-fortune#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Alfarmer-001/dsh-today-fortune.git"
+    "url": "git+https://github.com/farmer002/dsh-today-fortune.git"
   },
   "bugs": {
-    "url": "https://github.com/Alfarmer-001/dsh-today-fortune/issues"
+    "url": "https://github.com/farmer002/dsh-today-fortune/issues"
   },
   "exports": {
     ".": "./index.js",

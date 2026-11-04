@@ -41,16 +41,24 @@ DSH 界面右下角的一座卡通小庙。点一下，进庙选一个香炉，�
 
 ## 安装
 
+### 一句话安装
+
+在 DSH 里对 Agent 说：
+
+> 帮我安装 dsh-today-fortune
+
+它会自动从 npm 拉取最新版。也可以自己在 Plugins 页面手动填包名 `dsh-today-fortune`。
+
 ### 从 npm 安装（推荐）
 
 ```bash
-dsh plugin --profile web add dsh-today-fortune@1.0.0
+dsh plugin --profile web add dsh-today-fortune
 ```
 
 也可以走 `plugin_manager`：
 
 ```
-plugin_manager({ action: "install_bundle", target: "dsh-today-fortune@1.0.0" })
+plugin_manager({ action: "install_bundle", target: "dsh-today-fortune" })
 ```
 
 国内网络会自动回退到 npmmirror（DSH 插件管理器内置 `fallbackRegistries`）。
