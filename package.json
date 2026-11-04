@@ -1,9 +1,9 @@
 {
   "name": "dsh-today-fortune",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "A cartoon temple orb floating in the DSH overlay: pick a censer, draw a lot slip and read today's almanac in plain modern language.",
   "license": "MIT",
-  "author": "Alfarmer-001",
+  "author": "farmer002",
   "type": "module",
   "keywords": [
     "dsh",
